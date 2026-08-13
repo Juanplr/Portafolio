@@ -1,10 +1,19 @@
+import NavBar from "./NavBar"
+
 function Header() {
 
     return (
         <header className="header">
-            <div className="header__container">
+            <div>
                 <h1 className="header__title">Juan Pablo</h1>
-                <p className="header__subtitle">Frontend Developer</p>
+                <p className="header__subtitle">Full Stack Developer</p>
+            </div>
+            <div>
+                <NavBar />
+            </div>
+            <img src="" alt="imagen de perfil" />
+            <div>
+
             </div>
         </header>
     )
