@@ -9,7 +9,7 @@ function Educacion() {
                 <p>Estudios Concluidos en Octubre del 2025</p>
             </div>
             <div>
-                <img src="" alt="" />
+                <img src="" alt="UV" />
                 <p>Universidad Veracruzana</p>
                 <p>Facultad de estadística e informática</p>
 
