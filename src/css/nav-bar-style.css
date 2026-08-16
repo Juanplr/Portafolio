@@ -1,0 +1,25 @@
+.nav-bar ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar li {
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+
+.nav-bar a {
+    background-color: #3adf50;
+    padding: 0.5rem 1rem;
+    margin-right: 2rem;
+    text-decoration: none;
+    color: #242269;
+    font-weight: 500;
+}
+
+.nav-bar a:hover {
+    color: #fff;
+    background-color: #1e5034;
+}

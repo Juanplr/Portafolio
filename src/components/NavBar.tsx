@@ -1,6 +1,10 @@
+
+import "../css/nav-bar-style.css"
+
+
 function NavBar() {
     return (
-        <nav>
+        <nav className="nav-bar">
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Sobre mí</a></li>

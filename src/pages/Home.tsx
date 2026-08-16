@@ -7,9 +7,15 @@ import SobreMi from "./SobreMi"
 function Home() {
     return (
         <>
-            <div>
-                <h1>Bienvenido a mi Portafolio</h1>
-                <p>Explora mis proyectos y habilidades.</p>
+            <div className="home-container">
+                <div>
+                    <h1>Juan Pablo Lazaro Ruiz</h1>
+                    <h2>Desarrollador Full Stack</h2>
+                </div>
+
+                <div>
+                    <img src="" alt="imagen de perfil" />
+                </div>
             </div>
 
             <SobreMi />
