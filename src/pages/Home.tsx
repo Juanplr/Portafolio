@@ -1,5 +1,8 @@
-import Educacion from "../EducacionPage/Educacion"
-import SobreMi from "../SobreMiPage/SobreMi"
+import Contacto from "./Contacto"
+import Educacion from "./Educacion"
+import Habilidades from "./Habilidades"
+import Proyectos from "./Proyectos"
+import SobreMi from "./SobreMi"
 
 function Home() {
     return (
@@ -11,6 +14,9 @@ function Home() {
 
             <SobreMi />
             <Educacion />
+            <Habilidades />
+            <Proyectos />
+            <Contacto />
         </>
     )
 }
