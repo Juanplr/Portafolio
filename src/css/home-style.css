@@ -1,0 +1,25 @@
+.home-container {
+    background: #135C3A;
+    margin: 50px auto;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-container h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.home-container h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+
+
+.perfil-image {
+    width: 300px;
+    height: 300px;
+}

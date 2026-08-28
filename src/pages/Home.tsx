@@ -4,6 +4,8 @@ import Habilidades from "./Habilidades"
 import Proyectos from "./Proyectos"
 import SobreMi from "./SobreMi"
 
+import "../css/home-style.css"
+
 function Home() {
     return (
         <>
@@ -13,8 +15,8 @@ function Home() {
                     <h2>Desarrollador Full Stack</h2>
                 </div>
 
-                <div>
-                    <img src="" alt="imagen de perfil" />
+                <div className="perfil-container">
+                    <img src="perfil.jpg" alt="imagen de perfil" className="perfil-image" />
                 </div>
             </div>
 
